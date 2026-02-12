@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="JA/tg%bxmf2B-i$aml-d">set list to</variable><variable id=".y~)Q8r@3;R%Pc?MGpj~">set</variable><variable id="(|=WK^lOKn.=PJU;SIjS">set to</variable><variable id="p0KOuNe%{Ls+Po0n`_b+">list</variable><variable id="Bz?Oi}S9bU$Yq#XN2Syl">myImage</variable></variables><block type="function_definition" id="rS1vCF:vAo}qP4BWBcmS" x="849" y="-55"><mutation name="setdicepattern" functionid="|lJ=zs6}%7RWzBuv/}$6"></mutation><field name="function_name">setdicepattern</field><statement name="STACK"><block type="variables_set" id="-:vt.d0{|yPS;!y~zYZx"><field name="VAR" id="p0KOuNe%{Ls+Po0n`_b+">list</field><value name="VALUE"><block type="lists_create_with" id="FrM,.8f,rF7D^i[i8D%g" inline="false"><mutation items="6" horizontalafter="3"></mutation><value name="ADD0"><block type="device_build_image" id="*]i73@E0-GIl94-Sw`U|"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field></block></value><value name="ADD1"><block type="device_build_image" id="}^ebQT](h1JS7klm2M,$"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . . . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD2"><block type="device_build_image" id="}yQ2Z_BKQ(_NbFs(_h]O"><field name="LEDS">`
+        . . . . . 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        . . . . .
+        `</field></block></value><value name="ADD3"><block type="device_build_image" id="LgT}OCfZ0`m_sp1hy8|#"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD4"><block type="device_build_image" id="Ss?Qq5RE7[dfz:%k^ZMY"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . . . . .
+        `</field></block></value><value name="ADD5"><block type="device_build_image" id="m_oVt!O5]c;HDBJ[L`#7"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # . # . 
+        . . . . .
+        `</field></block></value></block></value></block></statement></block><block type="pxt-on-start" id="h3RH!7JnR7=2.Xf-e;+s" x="0" y="0"><statement name="HANDLER"><block type="function_call" id=",$kb2@*E23h#Db!o+Kxm"><mutation name="setdicepattern" functionid="|lJ=zs6}%7RWzBuv/}$6"></mutation><next><block type="function_call" id="kyu%@t_BAG_Sc.[D|$K~"><mutation name="Roll dice" functionid="=W,/oF@e:Pe{sXZ0#?6u"></mutation></block></next></block></statement></block><block type="device_gesture_event" id="+]^_OC3hf?xq`8ADW2*X" x="12" y="235"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="function_call" id="C!kPzl;(Jku6PMU4kVSU"><mutation name="Roll dice" functionid="=W,/oF@e:Pe{sXZ0#?6u"></mutation></block></statement></block><block type="function_definition" id="VNQud}:wSaK`I[~6=)r," x="-17" y="409"><mutation name="Roll dice" functionid="=W,/oF@e:Pe{sXZ0#?6u"></mutation><field name="function_name">Roll dice</field><statement name="STACK"><block type="device_show_image_offset" id="cB|^poba?(pw`AAUuKtQ"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="sprite"><block type="lists_index_get" id="3ok5SN`v*`yC8CeK~$ut"><value name="LIST"><block type="variables_get" id="zi2xSWrc7D4_x@[bHqba"><field name="VAR" id="p0KOuNe%{Ls+Po0n`_b+">list</field></block></value><value name="INDEX"><shadow type="math_number" id="jN}PIs`iy}-cnr0LaPeP"><field name="NUM">0</field></shadow><block type="device_random" id="Whf(nBU4u3W]KN(TgI|g"><value name="min"><shadow type="math_number" id="Z|%#`m8^?}tZ6`]0zi29"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="XZ!|CyM(IKEC!oaa=tSL"><field name="NUM">5</field></shadow></value></block></value></block></value><value name="offset"><shadow type="math_number" id=":VHDy:;eO9dU!LQ^U[gy"><field name="NUM">0</field></shadow></value><value name="interval"><shadow type="math_number" id="+DG6`cLC:kygi:*qZ~_t"><field name="NUM">400</field></shadow></value></block></statement></block></xml>
